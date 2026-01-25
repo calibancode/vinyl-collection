@@ -562,9 +562,13 @@ input[type="range"]:focus::-moz-range-thumb {
 
 .entry iframe {
   display: block;
+  width: 100%;
   max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   border: 0;
   background: transparent;
+  margin-bottom: 8px;
 }
 
 .footer-note {
