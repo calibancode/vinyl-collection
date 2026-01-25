@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="description" content="what bevvy is up to right now" />
+  <meta property="og:url" content="https://calibancode.github.io/vinyl-collection/now" />
+  <meta property="og:title" content="what i'm doing now - bevvy" />
+  <meta property="og:site_name" content="bevvy's vinyl collection" />
+  <meta property="og:description" content="what bevvy is up to right now" />
+  <meta property="og:type" content="website" />
+  <title>what i'm doing now - bevvy</title>
+  <link rel="canonical" href="https://calibancode.github.io/vinyl-collection/now">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#292C30">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Now page specific styles */
+    .now-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .header-left-now {
+      flex-shrink: 0;
+      align-self: flex-start;
+    }
+
+    .header-center {
+      flex: 1;
+      text-align: center;
+    }
+
+    .home-link {
+      display: inline-block;
+      color: var(--accent);
+      font-size: 14px;
+      padding: 4px 0;
+      text-decoration: none;
+      white-space: nowrap;
+      opacity: 0.9;
+      transition: opacity 0.2s ease;
+    }
+
+    .home-link:hover {
+      opacity: 1;
+      text-decoration: none;
+      filter: brightness(1.2);
+    }
+
+    .header-center h1 {
+      font-size: 28px;
+      margin: 0 0 8px 0;
+      color: #fff;
+      text-transform: lowercase;
+    }
+    .header-center .date {
+      color: #888;
+      font-size: 13px;
+      font-style: italic;
+    }
+
+    .entry {
+      background: #1e1f23;
+      border: 1px solid #333;
+      padding: 24px;
+      margin-bottom: 16px;
+      color: #ccc;
+    }
+    .entry h2 {
+      margin: 0 0 12px 0;
+      font-size: 18px;
+      color: #fff;
+      font-weight: 600;
+    }
+    .entry h3 {
+      margin: 16px 0 8px 0;
+      font-size: 16px;
+      color: #ddd;
+      font-weight: 600;
+    }
+    .entry p {
+      margin: 0 0 12px 0;
+      line-height: 1.6;
+    }
+    .entry p:last-child {
+      margin-bottom: 0;
+    }
+    .entry ul {
+      margin: 0 0 12px 0;
+      padding-left: 20px;
+      line-height: 1.6;
+    }
+    .entry ul:last-child {
+      margin-bottom: 0;
+    }
+    .entry li {
+      margin: 4px 0;
+    }
+    .entry em {
+      color: #aaa;
+      font-style: italic;
+    }
+    .entry strong {
+      color: #fff;
+      font-weight: 600;
+    }
+    .entry code {
+      background: #2a2d31;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      color: #e8e8e8;
+    }
+    .entry sup {
+      font-size: 11px;
+    }
+    .entry sup a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 0 2px;
+    }
+    .entry sup a:hover {
+      text-decoration: underline;
+    }
+    .entry .sources {
+      font-size: 13px;
+      line-height: 1.8;
+      margin-top: 16px;
+    }
+    .entry .sources li {
+      margin: 8px 0;
+    }
+    .entry .sources a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .entry .sources a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      text-align: center;
+      color: #666;
+      font-size: 12px;
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid #333;
+    }
+
+    @media (max-width: 600px) {
+      .now-header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .header-left-now {
+        align-self: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="now-header">
+      <div class="header-left-now">
+        <a href="index.html" class="home-link">← home</a>
+      </div>
+      <div class="header-center">
+        <h1>what i'm doing now</h1>
+        <p class="date">last updated: january 25, 2026</p>
+      </div>
+    </header>
+
+    <article class="entry">
+      <h2>january 2026</h2>
+
+      <h3>new projects</h3>
+      <ul>
+        <li><strong><a href="https://github.com/calibancode/crumbmark" target="_blank">crumbmark</a></strong> - just started: a fully local attribution tool that's quite snazzy. i am already rather fond of it.</li>
+        <li><strong><a href="https://github.com/calibancode/vinyl-collection" target="_blank">vinyl-collection</a></strong> - this project! experimentally mirrored to github and modularized. now i get a now page. neat!</li>
+      </ul>
+
+      <h3>project updates</h3>
+      <ul>
+        <li><strong><a href="https://github.com/calibancode/tidal-bitperfect" target="_blank">tidal-bitperfect</a></strong> - my personal tidal player. v0.2.0 is slated to be a big upgrade over the last release! you can, of course, try it for yourself early by using main. i only advise against it because if you need a dedicated tidal playback frontend, you probably already built your own or use a far more mature project, let's be real.</li>
+      </ul>
+
+      <h3>listening</h3>
+      <p>been absolutely thrashing to the hellaverse soundtrack. i've been remarkably boring this month, as i've been busy with wild happenstance.
+        instead, we can talk about Die With a Smile<sup><a href="#ref1">[1]</a></sup>
+        by Lady Gaga<sup><a href="#ref2">[2]</a></sup>
+        and Bruno Mars<sup><a href="#ref3">[3]</a></sup>, released as a standalone single on August 16, 2024.
+        It became Spotify's most-streamed song of 2025<sup><a href="#ref4">[4]</a></sup> and is still topping official charts.</p>
+      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kPa7bsKwL-c?si=iJPxeKkv2duW5jvG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>
+        in my opinion, it's about damn time the dinosaurs went mecha-mode and wiped the charts clean of the slop<sup><a href="#ref5">[5]</a></sup> that plagues modern billboards.
+        the only other noteable thing from 2025 that's continued charting into 2026 has been the k-pop demon hunter's stuff.
+      </p>
+      <h3>thoughts</h3>
+      <p>github pages lacks the file size limits of neocities. granted, that was never a problem. the original neocities site used jsdelivr. but.. since we're here now, and jsdelivr is probably placebo quicker anyway.. might re-encode everything at higher bitrates just because i can.</p>
+      <p><em>also, because i kind of want to see what i can get away with, this new level of freedom might be very funny. more likely: i forget about all of this in a week!</em></p>
+
+      <h3>sources</h3>
+      <ol class="sources">
+        <li id="ref1"><a href="https://www.youtube.com/watch?v=kPa7bsKwL-c" target="_blank">Die With a Smile - YouTube</a></li>
+        <li id="ref2"><a href="https://en.wikipedia.org/wiki/Lady_Gaga" target="_blank">Lady Gaga - Wikipedia</a></li>
+        <li id="ref3"><a href="https://en.wikipedia.org/wiki/Bruno_Mars" target="_blank">Bruno Mars - Wikipedia</a></li>
+        <li id="ref4"><a href="https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/" target="_blank">Spotify Wrapped 2025 - Spotify Newsroom</a></li>
+        <li id="ref5"><a href="https://www.techdigest.tv/2025/11/ai-slop-tops-billboard-and-spotify-charts.html" target="_blank">AI Slop Tops Billboard and Spotify Charts - Tech Digest</a></li>
+      </ol>
+    </article>
+
+    <article class="entry">
+      <h2>december 2025</h2>
+
+      <h3>end of the internet .. but not really.</h3>
+      <p>2025 is over, and with it, everyone's retreating back to a web that can be controlled, consumed, and enjoyed by genuine actors.</p>
+      <p>i won't think of shedding tears for the past. making something for tomorrow is way more fun.</p>
+      <p>all us living folk have the capacity to do <code>cool stuff™</code> in 2026. we'll see how that goes.</p>
+    </article>
+
+    <!--
+      ========================================
+      TEMPLATE FOR NEW ENTRIES
+      Copy this and fill it in:
+
+      <article class="entry">
+        <h2>month year</h2>
+
+        <h3>Section Title</h3>
+        <p>Your content here...</p>
+
+        <ul>
+          <li>List item if needed</li>
+        </ul>
+      </article>
+      ========================================
+    -->
+
+    <footer class="footer-note">
+      <p>this is a <a href="https://nownownow.com/about" target="_blank">now page</a>. it's like a blog but lazier.</p>
+    </footer>
+  </div>
+
+  <img src="https://bevvy.goatcounter.com/count?p=/now"
+       alt=""
+       aria-hidden="true"
+       style="position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none;">
+</body>
+</html>

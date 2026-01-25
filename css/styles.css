@@ -26,6 +26,40 @@ html, body {
   grid-template-columns: 1fr;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.header-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.header-right {
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.now-link {
+  display: inline-block;
+  color: var(--accent);
+  font-size: 14px;
+  padding: 4px 0;
+  text-decoration: none;
+  white-space: nowrap;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.now-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  filter: brightness(1.2);
+}
+
 header h1 {
   font-size: 20px;
   margin: 0 0 4px 0;
@@ -349,6 +383,17 @@ input[type="range"]:focus::-moz-range-thumb {
   #playlist, #notes { height:auto; }
   .wrap{ max-width: 860px; }
   .deck{ grid-template-columns:1fr; }
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-right {
+    align-self: flex-end;
+  }
 }
 
 @media (max-width: 520px){
