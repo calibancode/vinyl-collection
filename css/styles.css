@@ -395,6 +395,10 @@ input[type="range"]:focus::-moz-range-thumb {
     flex-wrap: nowrap;
   }
 
+  .header-right {
+    flex: 0 0 auto;
+  }
+
   .entry {
     padding: 16px;
   }
