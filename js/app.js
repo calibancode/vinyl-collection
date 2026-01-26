@@ -1077,20 +1077,6 @@
         { src: FAV("timon.webp"), alt: "timon from the lion king with an unimpressed expression" }
       ];
 
-      function renderAbout(){
-        const p = document.getElementById('about-text');
-        const tagsWrap = document.getElementById('about-tags');
-        if (p) p.innerHTML = aboutData.text;
-        if (tagsWrap) {
-          tagsWrap.innerHTML = '';
-          (aboutData.tags || []).forEach(t => {
-            const span = document.createElement('span');
-            span.textContent = t;
-            tagsWrap.appendChild(span);
-          });
-        }
-      }
-
       function renderFavs(){
         const wrap = document.getElementById('fav-gallery');
         const sec  = document.getElementById('favorites');
@@ -1445,7 +1431,6 @@
         });
       })();
 
-      renderAbout();
       renderFavs();
       buildSlugIndex();
       setArmImmediateDeg(ARM_REST);
