@@ -1,5 +1,5 @@
 // Media base URL and helper functions
-const BASE = 'https://cdn.jsdelivr.net/gh/calibancode/vinyl-media@7b93d4006ef14405c1b23cb103ff295ae87f46f6/';
+const BASE = 'https://cdn.jsdelivr.net/gh/calibancode/vinyl-media@5a1e7eb41ba59eb3e7c53b789ef9d37dccc72317/';
 const A = (f) => BASE + 'audio/' + f;
 const IMG = (f) => BASE + 'art/' + f;
 const FAV = (f) => BASE + 'fav/' + f;
