@@ -585,3 +585,106 @@ input[type="range"]:focus::-moz-range-thumb {
   width: 100%;
   margin-inline: auto;
 }
+
+/* Song of the Day Player */
+.song-of-day {
+  max-width: 800px;
+  margin-inline: auto;
+  width: 100%;
+  background: #1e1f23;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.sotd-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.sotd-art {
+  width: 160px;
+  height: 160px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 1px solid #333;
+  background: #2a2d31;
+}
+
+.sotd-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.sotd-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.sotd-artist {
+  margin: 0;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.3;
+}
+
+.sotd-album {
+  margin: 0;
+  font-size: 14px;
+  color: #aaa;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.sotd-note {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.5;
+  padding-top: 12px;
+  border-top: 1px solid #333;
+}
+
+.sotd-audio {
+  width: 100%;
+  height: 40px;
+  background: #2a2d31;
+  border-radius: 4px;
+}
+
+.sotd-audio::-webkit-media-controls-panel {
+  background-color: #2a2d31;
+}
+
+.sotd-audio::-webkit-media-controls-play-button,
+.sotd-audio::-webkit-media-controls-current-time-display,
+.sotd-audio::-webkit-media-controls-time-remaining-display {
+  color: #eee;
+}
+
+@media (max-width: 600px) {
+  .sotd-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .sotd-art {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
+    margin-inline: auto;
+  }
+
+  .song-of-day {
+    padding: 16px;
+  }
+}
