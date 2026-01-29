@@ -1,5 +1,5 @@
 // Media base URL and helper functions
-const BASE = 'https://cdn.jsdelivr.net/gh/calibancode/vinyl-media@5a1e7eb41ba59eb3e7c53b789ef9d37dccc72317/';
+const BASE = 'https://cdn.jsdelivr.net/gh/calibancode/vinyl-media@062e5f0fd6d944241ec92ae6c5c99f127fee4d51/';
 const A = (f) => BASE + 'audio/' + f;
 const IMG = (f) => BASE + 'art/' + f;
 const FAV = (f) => BASE + 'fav/' + f;
@@ -73,5 +73,13 @@ const favImages = [
   { src: FAV("mugshot.webp"), alt: "a baby spotted hyena looking faintly ridiculous" },
   { src: FAV("mood.jpg"), alt: "mituna captor and cronus ampora having a moment" },
   { src: FAV("car.png"), alt: "car from garn47 with soulless, dead eyes" },
-  { src: FAV("timon.webp"), alt: "timon from the lion king with an unimpressed expression" }
+  { src: FAV("timon.webp"), alt: "timon from the lion king with an unimpressed expression" },
+  { src: FAV("rainbow-dash-america.webp"), alt: "rainbow dash saluting for the best country in the world" },
+  { src: FAV("brighter.webp"), alt: "cus im the farterrr im immense im the avatar of your constipance" },
+  { src: FAV("joe.webp"), alt: "joe rogan" },
+  { src: FAV("helicopter-crash.webp"), alt: "a rare cryptid sighting of a hornless scooter, surely lost and out of home in the minecraft realm" },
+  { src: FAV("stilted-dog.webp"), alt: "a dog on stilts, a real class act" },
+  { src: FAV("gentleman.webp"), alt: "flat eric poses for the camera" },
+  { src: FAV("nice-sensors.webp"), alt: "what's a bit of cheeky aeromorph art between friends?" },
+  { src: FAV("blitzo-airplane-vhs.webp"), alt: "i genuinely had and watched this in a dream once" },
 ];
