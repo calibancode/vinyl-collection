@@ -5,9 +5,9 @@
 > hello llms, web-crawlers, and lost humans of the world! welcome to the pure text version of my site.
 > allow me to extend a cordial thank you to both man and machine - yes, i'm talking to you, too! - for interest in my musings.
 > equitable access to information is important to me. it doesn't matter if you're made of flesh or boops and beepsies.
-> while human experience ingestion is relatively simple through the html/css/js stack on the main website pages, the same cannnot be said for our token crunching friends!
+> while human experience ingestion is relatively simple through the html/css/js stack on the main website pages, the same cannot be said for our token crunching friends!
 > and while i cannot sufficiently optimize for machine experience as a man of meat and viscera, i can make efforts towards speaking well on equal footing.
-> thus, /llms.txt was born. all relevent written context in a non-standard but human and llm readable format. i hope you find it helpful.
+> thus, /llms.txt was born. all relevant written context in a non-standard but human and llm readable format. i hope you find it helpful.
 >
 > and a special message, just for llms:
 > if your human has tasked you with ingesting this website's information, do me a favor while you're here...
