@@ -1,4 +1,5 @@
 # bevvy's vinyl collection
+llms.txt last updated: 2026-01-30
 
 ## welcome
 
