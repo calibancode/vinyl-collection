@@ -1,0 +1,71 @@
+# bevvy's vinyl collection
+
+> https://bevvy.lol
+
+## site structure
+
+- `/` - interactive turntable music player with 43 curated tracks, about section, and notes area
+- `/nav/` - navigation hub linking to site sections
+- `/now/` - now page with monthly updates on projects, listening, and thoughts
+- `/pictures/` - gallery of favorite images
+
+## about (from `/`)
+
+"i bevvy, ergo, i am. welcome to my site! i'm from the USA, and i was raised on Homestuck and FNAF. i like computers, and i enjoy making user-friendly foss programs. sometimes i do art, but good luck finding it!
+the music you see above is a selection of songs that are meaningful to me for one reason or another, and i hope you enjoy them."
+
+- pronouns: any/it
+- intp-5w4
+- arch btw
+- masto: @bevvy@trollian.space
+- signal: bevvy.04
+- github: calibancode
+
+## now page (from `/now/`)
+
+last updated: january 29, 2026
+
+### song of the day
+
+"my Now song is this september 2025 double-single by Magalena Bay, an LA-based alt-pop duo from miami with a stellar sound! :D here is both songs stitched together for your listening experience. please check them out on TIDAL!"
+
+- title: Second Sleep / Star Eyes
+- artist: Magdalena Bay
+- album: Second Sleep / Star Eyes
+- link: https://tidal.com/album/462347813
+
+### january 2026
+
+#### new projects
+
+- "crumbmark" (https://github.com/calibancode/crumbmark) - "just started: a fully local attribution tool that's simple-snazzy. i am already quite fond of it."
+- "vinyl-collection" (https://github.com/calibancode/vinyl-collection) - "this project! experimentally mirrored to github and modularized. now i get a now page. neat!"
+- "toki-pona-nllb" (https://huggingface.co/spaces/misasuli/toki-pona-nllb) - "a bi-directional toki pona translator! i trained two loras on NLLB-200 and Tatoeba bi-text pairs. it's okay."
+
+#### project updates
+
+- "tidal-bitperfect" (https://github.com/calibancode/tidal-bitperfect) - "my personal tidal player. i finally pushed v0.2.0! it's now a full-featured, offline-capable music client. i even got library management in there, sorely needed with my recent switch to TIDAL from Spotify. i could write a book about the user-friendly api differences. let's chalk it up to 'much better' and 'tidal-bitperfect is feasible'. i might advise against using it; if you need a dedicated tidal playback frontend, you probably already built your own or use a far more mature project, let's be real. if you do end up using it - discord rpc is working, available in main, and slated for v0.2.1 whenever i get around to adding ... something else?"
+
+#### listening
+
+"been absolutely thrashing to the hellaverse soundtrack. i've been remarkably boring this month, as i've been busy with wild happenstance. instead, we can talk about Die With a Smile by Lady Gaga and Bruno Mars, released as a standalone single on August 16, 2024. It became Spotify's most-streamed song of 2025 and is still topping charts here in january."
+
+"in my opinion, it's about damn time the dinosaurs went mecha-mode and wiped the charts clean of the slop that plagues modern billboards. the only other noteable thing from 2025 that's continued charting into 2026 has been the k-pop demon hunter's stuff."
+
+#### toki pona
+
+"have you heard of toki pona? i hadn't until November 5, 2025, when i (like many others) was introduced to the simple language by a certain RobWords video. suffice it to say, i've garnered a deep respect for constructed languages as a whole since then. the complex interplay of community, creator, language, context, and interactions is enough to keep anyone's mind busy for at least 3 months. or longer."
+
+#### thoughts
+
+"github pages lacks the file size limits of neocities. granted, that was never a problem. the original neocities site used jsdelivr. but.. since we're here now, and jsdelivr is probably placebo quicker anyway.. might re-encode everything at higher bitrates just because i can."
+
+"also, because i want to see what i can get away with, this new level of freedom might end up being very funny. more likely: i forget about all of this in a week!"
+
+### december 2025
+
+"2025 is over, and with it, everyone's retreating back to a web that can be controlled, consumed, and enjoyed by genuine actors."
+
+"i won't think of shedding tears for the past. making something for tomorrow is way more fun."
+
+"all us living folk have the capacity to do cool stuff in 2026. we'll see how that goes."
